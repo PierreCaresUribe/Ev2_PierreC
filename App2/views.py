@@ -16,6 +16,8 @@ def geto(request):
           ,"linkDesp" : "/yuta"
           ,"1imagen" : "img/geto.jpg"
           ,"2imagen" : "img/geto_manipulacion.jpeg"
+          ,"podio" : "Entre los tres Hechizeros de grado especial este queda en: "
+          ,"poder": "img/tercero.png"
           }
     return render(request,"app2/app2.html",data)
 
@@ -31,6 +33,8 @@ def yuta(request):
           ,"linkDesp" : "/gojo"
           ,"1imagen" : "img/yuta.jpg"
           ,"2imagen" : "img/yuta_mimetismo.jpg"
+          ,"podio" : "Entre los tres Hechizeros de grado especial este queda en: "
+          ,"poder":"img/segundo.png"
           }
     return render(request,"app2/app2.html",data)
 
@@ -46,5 +50,7 @@ def gojo(request):
           ,"linkDesp" : "/geto"
           ,"1imagen" : "img/gojo.jpg"
           ,"2imagen" : "img/gojo_vacio.jpg"
+          ,"podio" : "Entre los tres Hechizeros de grado especial este queda en: "
+          ,"poder":"img/primero.png"
           }
     return render(request,"app2/app2.html",data)
