@@ -25,5 +25,8 @@ urlpatterns = [
     path('bebida/', bebida),
     path('electronica/', electronica),
     path('ropa/', ropa),
+    path('geto/',geto),
+    path('yuta/',yuta),
+    path('gojo/',gojo),
     
 ]
